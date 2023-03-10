@@ -23,6 +23,7 @@ ol{
     flex-direction: row;
     justify-content: space-between;
     /* margin: 20px 20px; */
+    background-color: dack grey;
 }
 .mama{
     color: darkblue;
@@ -49,6 +50,15 @@ color: darkblue;
     gap: 10px;
     width: 150px;
     /* margin: 20px 20px; */
+    background-color: aqua;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+.sec-contact form:hover{
+    background-color: orangered;
+    transition: 0.6s;
 }
 .mm{
     height: 100px;
@@ -67,4 +77,11 @@ button:hover{
     background-color: black;
     color: white;
     transition: o.9s;
+}
+.sec-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
