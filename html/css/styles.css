@@ -14,6 +14,9 @@ body{
 }
 ul{
     list-style-type: none;
+    background-color: aqua;
+    height: 40px;
+    align-items: center;
 }
 ol{
     margin-left: 20px;
@@ -37,6 +40,13 @@ margin: 70px 40px;
 img{
     width: 350px;
     border-radius: 200px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .Aboutus{
     margin-top: 20px ;
